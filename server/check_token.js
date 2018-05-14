@@ -1,5 +1,5 @@
 var jwt = require('jsonwebtoken')
-const secret = 'zero'
+const secret = '!@~#Zero389409258'
 module.exports = function(req, res, next) {
     //检查post的信息或者url查询参数或者头信息
     var token = req.body.token || req.query.token || req.headers['x-access-token']
