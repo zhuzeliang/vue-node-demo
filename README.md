@@ -10,7 +10,7 @@ vue2 + vuex + vue-router + webpack + ES6/7 + axios
 
 ## 后台技术栈
 
-nodemon + express
+nodemon + express + mongoose
 
 ## 项目运行
 
