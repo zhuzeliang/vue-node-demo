@@ -1,9 +1,7 @@
 # node-vue-demo
 # 前言
 
-[README in English](README-en.md)
-
-
+本项目主要集合基于token登录状态验证的登录，以及node后台实现基于token登录接口，还有一套前后端的增删改查，简单的demo；后续还会持续完善其他前后端常用功能模块。
 
 
 ## 前端技术栈
@@ -21,7 +19,7 @@ nodemon + express
 
 ## 后台启动 进入server目录，此处需运行本地mongodb；nodemon启动node项目；
 ```
-git clone https://github.com/bailicangdu/vue2-elm.git  
+git clone https://github.com/zhuzeliang/node-vue-demo.git 
 
 cd server
 
@@ -33,7 +31,7 @@ nodemon index.js
 
 ## 前端vue项目启动 进入vue-test目录；
 ```
-git clone https://github.com/bailicangdu/vue2-elm.git  
+git clone https://github.com/zhuzeliang/node-vue-demo.git
 
 cd vue-test
 
