@@ -1,4 +1,4 @@
-# node-vue-demo
+# vue-node-demo
 # 前言
 
 本项目主要集合基于token登录状态验证的登录，以及node后台实现基于token登录接口，还有一套前后端的增删改查，简单的demo；后续还会持续完善其他前后端常用功能模块。
