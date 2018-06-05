@@ -39,6 +39,14 @@ Router.post('/loginRegister', function(req, res) {
 
 })
 
+
+
+//测试接口
+
+Router.get('/testApi', (req, res) =>{
+    res.json({ code: 0, data: { _id:"whdaiud8",name:"张强"} })
+})
+
 function md5Pwd(pwd) {
     const salt = '!@~#Zero389409258'
     return utils.md5(utils.md5(pwd + salt))

@@ -17,7 +17,7 @@ module.exports = function(req, res, next) {
         });
     } else {
         // 如果没有token，则返回错误
-        return res.status(403).send({
+        return res.json({
             code: 1,
             msg: '没有提供token！'
         })
