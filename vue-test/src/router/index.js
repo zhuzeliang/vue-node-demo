@@ -4,22 +4,28 @@ import HelloWorld from '@/components/HelloWorld'
 import home from '@/page/home'
 import store from '@/page/store'
 import login from '@/page/login'
+import chat from '@/page/chat'
 Vue.use(Router)
 
 const router = new Router({
-  routes: [
-    {
+  routes: [{
       path: '/home',
       name: 'home',
       component: home,
       meta: { requireAuth: true },
-    },
-     {
+    },{
+      path: '/chat',
+      name: 'chat',
+      component: chat,
+      meta: { requireAuth: true },
+    },{
+      path: '/',
+      redirect: '/home'
+    },{
       path: '/login',
       name: 'login',
       component: login
-    },
-    {
+    },{
       path: '/store',
       name: 'store',
       component: store,

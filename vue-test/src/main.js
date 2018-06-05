@@ -8,6 +8,10 @@ import 'element-ui/lib/theme-chalk/index.css'
 import './config/axios.js'
 import 'babel-polyfill'
 import store from './vuex/store'
+import VueSocketio from 'vue-socket.io'
+import socketio from 'socket.io-client'
+
+Vue.use(VueSocketio, socketio('http://localhost:9093/'),store);
 
 Vue.use(ElementUI)
 

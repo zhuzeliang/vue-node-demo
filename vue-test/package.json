@@ -20,6 +20,7 @@
     "vue-clipboard2": "^0.1.0",
     "vue-quill-editor": "^3.0.5",
     "vue-router": "^3.0.1",
+    "vue-socket.io": "^2.1.1-b",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
